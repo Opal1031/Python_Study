@@ -50,3 +50,37 @@ a, b = map(int, input().split())
 ```sorted(리스트명)```
 - 내장 함수
 - list 원본값은 그대로이고, 정렬값을 반환
+
+
+## 4️⃣ find()
+
+```문자열.find(검색 대상)```
+- 문자열에 사용하는 메소드
+- 문자열 내에서 찾고자하는 문자의 인덱스를 반환
+
+### 예시
+```python
+str = "findletter"
+print(str.find("d"))
+```
+
+## 5️⃣ EOFError
+
+```EOF > End Of File```
+- while문에서 더 이상 읽을 파일이 없을 때 발생하는 에러
+- try / except을 사용하여 해결
+
+### 예시
+```python
+import sys
+
+while True:
+    try:
+        a = int(input())
+        if a == 0:
+            break
+        print(a)
+
+    except EOFError:
+        break
+```
