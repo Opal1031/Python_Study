@@ -84,3 +84,13 @@ while True:
     except EOFError:
         break
 ```
+
+## 6️⃣ replace()
+
+```str = str.replace(replace 할  대상, 어떤 것으로 replace 할 지)```
+- 문자열에서 특정 부분을 특정 문자로 치환하기 위해 사용하는 메소드
+
+### 예시
+```python
+str = str.replace(a, "X") #str에서 a를 모두 X로 바꿈꿈
+```
